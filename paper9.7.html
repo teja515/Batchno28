@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Table</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+    th, td {
+      border: 1px solid red;
+      padding: 12px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    th {
+      background-color: pink;
+      color: white;
+    }
+
+    tr:nth-child(even) td {
+      background-color: pink;
+    }
+
+    tr:nth-child(odd) td {
+      background-color: peru;
+    }
+
+    .icon {
+
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>SNO</th>
+    <th>NAME</th>
+    <th>COST</th>
+    <th>UPDATE</th>
+    <th>DELETE</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>LAPTOP</td>
+    <td>₹50000.00</td>
+    <td><i class="fa fa-edit icon"></i></td>
+    <td><i class="fa fa-trash icon"></i></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Mobile</td>
+    <td>$50</td>
+    <td><i class="fa fa-edit icon"></i></td>
+    <td><i class="fa fa-trash icon"></i></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Shoes</td>
+    <td>€10</td>
+    <td><i class="fa fa-edit icon"></i></td>
+    <td><i class="fa fa-trash icon"></i></td>
+  </tr>
+</table>
+
+</body>
+</html>

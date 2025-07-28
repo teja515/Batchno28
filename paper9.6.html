@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator UI</title>
+  <style>
+    body {
+      background-color: #add8e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    table {
+        background-color:#add8e6 ;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+      width: 500px;
+    }
+
+    td {
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 24px;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      background-color: white;
+    }
+
+    .top-screen {
+      background-color: #1e1e1e;
+      color: white;
+      font-size: 32px;
+      text-align: right;
+      padding-right: 20px;
+      height: 50px;
+      border: none;
+    }
+
+    .operator {
+      background-color: #f2f2f2;
+    }
+
+    .equal {
+      background-color: #f97316;
+      color: white;
+    }
+
+    .bottom-row td {
+      border-bottom-left-radius: 10px;
+    }
+
+    .ac {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="4" class="top-screen">0</td>
+  </tr>
+  <tr>
+    <td class="operator">+</td>
+    <td class="operator">-</td>
+    <td class="operator">×</td>
+    <td class="operator">÷</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td rowspan="4" class="equal">=</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr class="bottom-row">
+    <td>0</td>
+    <td>.</td>
+    <td colspan="1" class="ac">AC</td>
+  </tr>
+</table>
+
+</body>
+</html>

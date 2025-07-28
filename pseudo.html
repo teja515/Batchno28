@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        p:hover{
+            color: red;
+        }
+        input[type="text"]:focus{
+            outline: none;
+            border: 2px solid red;
+        }
+        h1:first-child{
+            color: red;
+        }
+        h1:last-of-type{
+            color: aqua;
+        }
+        p:not(.c1){
+            color: yellowgreen;
+        }
+        input[type="checkbox"]:checked{
+            accent-color:red;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <input type="checkbox">
+
+    <p class="c1">Hello</p>
+    <p class="c2">Hello</p>
+    <p class="c2">Hello</p>
+    <p class="c2">Hello</p>
+    <p class="c1">Hello</p>
+
+    <h1>CareerIT</h1>
+    <h1>CareerIT</h1>
+    <h1>CareerIT</h1>
+    <h1>CareerIT</h1>
+    <h1>CareerIT</h1>
+    <hr>
+    <input type="text">
+    <hr>
+    <p>Hello.CareerIT</p>
+</body>
+</html>

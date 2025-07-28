@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Table</title>
+  <style>
+    table {
+      border:1px;
+    }
+    .outer-table {
+      border: 3px solid green;
+      margin: 20px;
+    }
+    .outer-table td {
+      border: 2px solid green;
+      padding: 15px;
+      text-align: center;
+    }
+    .inner-table {
+      border: 3px solid blue;
+      margin: auto;
+    }
+    .inner-table td {
+      border: 2px solid blue;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<table class="outer-table">
+  <tr>
+    <td rowspan="2">Table 1</td>
+    <td>
+      Table 1<br><br>
+      <!-- Nested Table -->
+      <table class="inner-table">
+        <tr>
+          <td>Table 2</td>
+          <td>Table 2</td>
+        </tr>
+        <tr>
+          <td>Table 2</td>
+          <td>Table 2</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>Table 1.</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Registration form</legend>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="Username" placeholder="Enter Username"></td>
+                <td><span>(***Enter valid Username***)</span></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Lastname" placeholder="Enter Lastname"></td>
+                <td><span>(***Enter valid Lastname***)</span></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="Password" placeholder="Enter Password"></td>
+                <td><span>(***Enter valid Password***)</span></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" name="CPassword" placeholder="Enter Password"></td>
+                <td><span>(***Password and Confirm Password must be same***)</span></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="Email" placeholder="Enter Email"></td>
+                <td><span>(***Enter valid Email***)</span></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" name="Age" placeholder="Enter Age"></td>
+                <td><span>(***Enter Valid Age***)</span></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="tel" name="Phone" placeholder="Enter Mobile"></td>
+                <td><span>(***Enter valid Mobile***)</span></td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td><input type="checkbox" name="Language" value="c">C<input type="checkbox" name="Language" value="cpp">C++</td>
+                <td><span>(***Select at least one Language***)</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="Language" value="java">Java<input type="checkbox" name="Language" value="dotnet">Dotnet</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="Gender" value="male">Male<input type="Radio" name="Gender" value="female">Female</td>
+                <td><span>(***Select Gender***)</span></td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td><select name="Country">
+                    <option value="">Select Country</option>
+                    <option value="ind">India</option>
+                    <option value="bng">Bangladesh</option>
+                    <option value="us">America</option>
+                    <option value="uk">England</option>
+                </select></td>
+                <td><span>(***Select Country***)</span></td>
+            </tr>
+            <tr>
+                <td>Dob</td>
+                <td><input type="date" name="udob"></td>
+                <td><span>(***Select valid Date of Birth***)</span></td>
+            </tr>
+            <tr>
+                <td>Fav Color</td>
+                <td><input type="color" name="favcolor"></td>
+                <td><span>(***Select Fav color***)</span></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea cols="15" rows="5" name="address"></textarea></td>
+                <td><span>(***Enter valid Address***)</span></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register" style="border-radius: 20px;"></td>
+                <td><input type="reset" value="Cancel" ></td>
+            </tr>
+        </table>
+        
+
+    </fieldset>
+</body>
+</html>

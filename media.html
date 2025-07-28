@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Queries</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                height: 100%;
+            }
+            .header{
+                height: 15vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                width: 10vw;
+                padding-left: 10px;
+            }
+            .menu{
+                display: flex;
+                gap: 20px;
+                padding-right: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 2vw;
+            }
+
+            .main{
+                height: 70vh;
+                display: flex;
+            }
+
+            .image{
+                flex: 1;
+                background-image: url("download.jpeg");
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+
+            .info{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .social{
+                width: 3vw;
+            }
+            .social1{
+                width: 3vw;
+            }
+            .social2{
+                width: 3vw;
+            }
+            .social3{
+                width: 3vw;
+            }
+            .footer{
+                height: 10vh;
+                display: flex;
+                justify-content: flex-end;
+                gap:10px;
+                align-items: center;
+            }
+
+            @media(max-width:768px){
+                .menu{
+                    display: none;
+                }
+                .header{
+                    justify-content: center;
+                }
+                .logo{
+                    width: 18vw;
+
+                }
+                .main{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 20%;
+                    height: 70vh;
+                }
+                .image{
+                    width: 150px; 
+                    height: 250px;
+                    border-radius: 50%; 
+                    object-fit: cover; 
+                     
+                }
+                .info_2{
+                    display: none;
+                }
+                .info_3{
+                    display: none;
+                }
+                .info_4{
+                    display: none;
+                }
+                .footer{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- PARENT -->
+        <section class="container">
+
+            <!-- HEADER -->
+            <section class="header">
+                <!-- LOGO -->
+                <img src="logo.jpeg" class="logo" alt="Error">
+                <!-- MENU -->
+                <section class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Contact</a>
+                </section>
+            </section>
+
+
+            <!-- MAIN -->
+            <section class="main">
+                <!-- IMAGE -->
+                <section class="image"></section>
+                <!-- TEXT-->
+                 <section class="info">
+                    <p class="info_1">Info1 Soon....!</p>
+                    <p class="info_2">Info2 Soon....!</p>
+                    <p class="info_3">Info3 Soon....!</p>
+                    <p class="info_4">Info4 Soon....!</p>
+                 </section>
+            </section>
+
+            <section class="footer">
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+            </section>
+
+        </section>
+    </body>
+</html>

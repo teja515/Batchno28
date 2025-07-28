@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Name Field</title>
+  <style>
+    label {
+      font-weight: bold;
+      font-size: 20px;
+      color: darkred;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    input{
+      border: 2px solid red;
+      outline: none;
+      padding: 5px 10px;
+      font-size: 16px;
+      caret-color: blue; /* Blinking cursor color */
+      margin-bottom: 10px;
+    }
+    
+  </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <label for="username">User Name</label>
+  <input type="text" class="username" name="username" placeholder="username">
+  <br>
+  <label for="username">User Name</label>
+  <input type="text" id="username" name="username">
+  <br>
+  <label for="password">password</label>
+  <input type="password" id="password" name="pass" placeholder="........">
+  <br>
+  <label for="product">product Name</label>
+  <input type="search" id="pro" name="pro">
+  <br>
+  <label for="company">Company Name</label>
+  <input list="companies" id="company" name="com">
+  <datalist id="companies"><option  value="Tech Mahindra"></option>
+<option  value="Tech Satya"></option>
+<option  value="Tech Anand"></option></datalist>
+<br>
+<i class="fa fa-whatsapp"></i>
+ <label for="number">Whatsapp Number</label>
+  <input type="number" id="what" name="num">
+  <br>
+  
+  <input type="checkbox" id="check" name="che">
+  <label for="product">I accept licence agreement</label><br>
+
+  <select name="country">
+    <option name="select" value="select">select</option><option name="ind" value="india">india</option>
+<option  value="uk">uk</option>
+<option  value="us">us</option></datalist>
+</body>
+</html>

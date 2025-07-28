@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Position</title>
+    <style>
+        .common{
+            width: 100px;
+            height: 100px;
+            border: 1px solid gray ;
+            color: white;
+        }
+        .c1{
+            background-color: aqua;
+            position: relative;
+            z-index: 100;
+            left:100px;
+            top: 120px;
+        }
+        .c2{
+            background-color:lawngreen;
+            position: relative;
+            z-index: 90;
+            left: 80px;
+            top: 0px;
+        }
+        .c3{
+            background-color: indigo;
+            position: relative;
+            z-index: 80;
+            left: 60px;
+            top: -120px;
+
+        }
+        .c4{
+            background-color: cadetblue;
+            position: relative;
+            z-index: 70;
+            left: 40px;
+            top: -240px;
+        }
+        .c5{
+            background-color: limegreen;
+            position: relative;
+            z-index: 60;
+            left: 20px;
+            top: -360px;
+        }
+    </style>
+</head>
+<body>
+    <div class="common c1">1</div>
+    <div class="common c2">2</div>
+    <div class="common c3">3</div>
+    <div class="common c4">4</div>
+    <div class="common c5">5</div>
+</body>
+</html>

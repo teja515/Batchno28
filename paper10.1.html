@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List Style Cards - 2 Rows</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      font-family: sans-serif;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: red;
+      color: white;
+      width: 180px;
+      border-radius: 10px;
+      padding: 10px 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .card ol {
+      padding-left: 25px;
+      margin: 0;
+    }
+
+    .card li {
+      background-color: #d40000;
+      margin: 8px 0;
+      padding: 6px 10px;
+      border-radius: 5px;
+    }
+
+    .decimal ol { list-style-type: decimal; }
+    .upper-alpha ol { list-style-type: upper-alpha; }
+    .lower-alpha ol { list-style-type: lower-alpha; }
+    .upper-roman ol { list-style-type: upper-roman; }
+    .lower-roman ol { list-style-type: lower-roman; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- 1 -->
+  <div class="card decimal">
+    <ol>
+      <li><b>HTML</b></li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 2 -->
+  <div class="card upper-alpha">
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 3 -->
+  <div class="card lower-alpha">
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 4 -->
+  <div class="card upper-roman">
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 5 -->
+  <div class="card lower-roman">
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 6 -->
+  <div class="card decimal">
+    <ol start="6">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 7 -->
+  <div class="card upper-alpha">
+    <ol start="6">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+  <!-- 8 -->
+  <div class="card lower-alpha">
+    <ol start="6">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular15</li>
+      <li>ReactJS</li>
+    </ol>
+  </div>
+
+</div>
+
+</body>
+</html>

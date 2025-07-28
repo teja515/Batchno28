@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table{
+            width: 50%;
+            text-align: center;
+            margin: 100px auto;
+            border-collapse: collapse;
+        }
+        th{
+            height: 50px;
+        }
+        td{
+            height: 30px;
+        }
+        tr:nth-child(even){
+            background: mediumspringgreen;
+        }
+        tr:nth-child(odd){
+            background-color: skyblue;
+        }
+        tr:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table border="black">
+        <tr>
+            <th>PID</th>
+            <th>PNAME</th>
+            <th>PCOST</th>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>PRODUCT1</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>112</td>
+            <td>PRODUCT2</td>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <td>113</td>
+            <td>PRODUCT3</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>114</td>
+            <td>PRODUCT4</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>115</td>
+            <td>PRODUCT5</td>
+            <td>50000</td>
+        </tr>
+    </table>
+</body>
+</html>
