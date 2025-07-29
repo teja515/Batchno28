@@ -1,0 +1,9 @@
+| Symbol | Meaning                         |
+| ------ | ------------------------------- |
+| `A`    | Added (staged new file)         |
+| `M`    | Modified (file changed)         |
+| `D`    | Deleted                         |
+| `??`   | Untracked (not staged or added) |
+| `R`    | Renamed                         |
+| `C`    | Copied                          |
+| `U`    | Unmerged (conflict)             |
