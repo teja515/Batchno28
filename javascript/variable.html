@@ -6,9 +6,33 @@
     <title>Variables</title>
 </head>
 <body>
+
     <script>
-        
+        var obj = {
+            name: "John",
+            age: 30,
+            occupation: "Developer"
+        };
+        var obj2 = obj.name;
+        var obj3 = obj.age;
+        var obj4 = obj.occupation;
+        document.write(obj2,`<br>`);
+        document.write(obj3,`<br>`);
+        document.write(obj4,`<br>`);
     </script>
+
+    <!-- <script>
+       document.write(typeof `Career IT`,`<br>`); 
+       document.write(typeof 100,`<br>`);
+       document.write(typeof true,`<br>`);
+       document.write(typeof undefined,`<br>`);
+       document.write(typeof null,`<br>`);
+       document.write(typeof 100n,`<br>`);
+       document.write(typeof Symbol(100),`<br>`);
+       document.write(typeof [],`<br>`);
+       document.write(typeof {},`<br>`);
+       document.write(typeof function(){},`<br>`);
+    </script> -->
     <!-- <script>
         var x = Symbol(100);
         console.log(x);
